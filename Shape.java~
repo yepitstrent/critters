@@ -1,0 +1,12 @@
+import java.awt.*;
+import objectdraw.*;
+
+public abstract class Shape
+  private String name;
+
+  public Shape() { ... }
+  public Shape( String name ) { ... }
+  public String getName() { ... }
+  private void setName( String name ) { ... }
+  public abstract void move( int xDelta, int yDelta );
+  public abstract void draw( DrawingCanvas canvas, Color c, boolean fill );

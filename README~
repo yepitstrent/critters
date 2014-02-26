@@ -1,0 +1,69 @@
+In this program, we take "Critters" and place them onto
+the canvas. They move around the screen in different ways.
+The Runner will run from everything it encounters, the Chaser
+will chase everything except other chasers. The Random will
+move about as it pleases, jumping from side to side randomly
+without regard to either chaser or runner. If a runner
+encounters the edge of the canvas, it will telleport to a
+random spot on the screen. Feel free to stop start or clear
+the critters by pressing the buttons accordingly. To place a
+critter, click their button first, and then click on the canvas
+to bring them into the world. Have fun with your critters, they
+live simple lives and only want to do what the are told to do
+from their code.I think I saw the Virgin Mary when I put a bunch
+of runners on the screen at the same time. This program is the
+apex of my programming experience in this class.
+Answer the following questions:
+
+1. A high school student is trying to write a Java program 
+that will draw different shapes and in different possible 
+colors. To do this, she has written just one Java class 
+called ShapeDrawer, which contains all the necessary methods 
+like drawRedCircle(), drawBlueCircle(), drawYellowSquare(), 
+drawGreenSqare(), and so on. Using
+object-oriented terminology, describe how you can help the 
+student improve her design.
+
+I would encourage her to not make a new method for every
+ shape and color combination. Instead, make a shape method
+ for each shape she wanted to create and a color set method
+ to change the color of each shape. I would also tell 
+her to use objectdraw.jar because it has everything she 
+needs to get her program to work. I would also discourage
+ her from trying to get the shapes to chase or run from 
+each other based on the location of the surrounding shapes 
+because she will spend lots of time in the lab working on 
+the project and all of her friends will stop calling her 
+because she will always say that she is busy working on the 
+program when they want to go out and party. She will become 
+loathed by everyone she meets because all she will talk 
+about is how she can't get the extra credit done in time 
+for the deadline.
+
+2. List at least two ways in which Java Interfaces and 
+Java abstract classes are different.
+
+Interface only has constants and method prototypes. 
+Abstract can contain everything a non abstract class can hold.
+
+abstract will declare methods and not define them.
+
+3. List at least two ways in which Java Interfaces and 
+Java abstract classes are alike.
+
+They both use sub class inheritance
+they both contain constant data types
+
+4. How can you run gvim through the command line to open 
+all Java source code files in the current directory, each
+file in its own tab?
+
+$ gvim *.java -p
+
+5. Suppose you are currently inside a directory and in there 
+you want to make a new directory called fooDir. And
+inside fooDir, you want another directory called barDir. Using 
+only a single mkdir command, how can you create
+a directory called fooDir with a directory called barDir inside it?
+
+$ mkdir -p fooDir/barDir
