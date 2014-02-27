@@ -1,6 +1,0 @@
-<html>
-  <body>
-    <applet code="CrittersController.class" archive="objectdraw.jar"
-      width="1000" height="500"></applet>
-  </body>
-</html>
